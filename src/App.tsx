@@ -19,13 +19,7 @@ const queryClient = new QueryClient();
 const App = () => (
   <WagmiProvider config={config}>
     <QueryClientProvider client={queryClient}>
-      <RainbowKitProvider
-        theme={{
-          accentColor: '#00ff41',
-          accentColorForeground: '#1a1a1a',
-          borderRadius: 'medium',
-        }}
-      >
+      <RainbowKitProvider>
         <TooltipProvider>
           <Toaster />
           <Sonner />
