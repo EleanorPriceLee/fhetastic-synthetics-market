@@ -21,14 +21,9 @@ const App = () => (
     <QueryClientProvider client={queryClient}>
       <RainbowKitProvider
         theme={{
-          lightMode: {
-            accentColor: 'hsl(120 100% 50%)',
-            accentColorForeground: 'hsl(220 13% 8%)',
-          },
-          darkMode: {
-            accentColor: 'hsl(120 100% 50%)',
-            accentColorForeground: 'hsl(220 13% 8%)',
-          },
+          accentColor: '#00ff41',
+          accentColorForeground: '#1a1a1a',
+          borderRadius: 'medium',
         }}
       >
         <TooltipProvider>
