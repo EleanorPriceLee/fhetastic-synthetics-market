@@ -1,7 +1,7 @@
 {
-  "name": "vite_react_shadcn_ts",
+  "name": "fhetastic-synthetics-market",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
@@ -12,7 +12,7 @@
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
-    "@rainbow-me/rainbowkit": "^2.2.9",
+    "@rainbow-me/rainbowkit": "^2.2.8",
     "wagmi": "^2.9.0",
     "viem": "^2.33.0",
     "@radix-ui/react-accordion": "^1.2.11",
